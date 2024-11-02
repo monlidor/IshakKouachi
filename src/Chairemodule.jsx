@@ -31,7 +31,7 @@ const ThreeDViewer = () => {
 
     const loader = new GLTFLoader();
     loader.load(
-      `${process.env.PUBLIC_URL}/3D/ChairAndTable.glb`,
+      `${process.env.PUBLIC_URL}/3D/ChairAndTable1.glb`,
       (gltf) => {
         gltf.scene.scale.set(0.5, 0.5, 0.5);
         scene.add(gltf.scene);

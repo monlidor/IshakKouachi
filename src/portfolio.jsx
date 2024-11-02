@@ -2,22 +2,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
+import Navbar from "./navbar";
 
 const Portfolio = () => {
   return (
-    <div>
-      <header>
-        <h5 className="name">Ishak Kouachi portfolio</h5>
-        <nav>
-          <ul className="navlink">
-            <li><Link to="/tp1">TP1</Link></li>
-            <li><Link to="#">TP2</Link></li>
-            <li><Link to="#">TP3</Link></li>
-            <li><Link to="#">TP4</Link></li>
-          </ul>
-        </nav>
-      </header>
-
+    <div> 
+       <Navbar />
       <h1 className="Wellcome">Welcome to Ishak's Portfolio</h1>
 
       <p className="textcont">

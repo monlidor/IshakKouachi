@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+li>a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: tomato;
+}
+
+.name {
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: auto;
+    transition: all 0.3s ease 0s;
+}
+
+.name:hover {
+    color: rgb(65, 83, 124)
+}
+
+.navlink {
+    list-style: none;
+}
+
+.navlink li {
+    display: inline-block;
+    font-weight: bold;
+    padding: 0px 20px;
+}
+
+.navlink li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navlink li a:hover {
+    color: rgb(65, 83, 124)
+}
+
+.Wellcome {
+    margin: 10px 0px 30px 10px;
+}
+
+.textcont {
+    margin: 5px 10px;
+}
+
+.imgtp1 {
+    width: 50%;
+    margin: 30px 10px;
+}
+
+.gototp {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: tomato;
+}
+
+.gototp:hover {
+    color: rgb(170, 61, 42);
+}

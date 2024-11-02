@@ -23,7 +23,7 @@ const Portfolio = () => {
       <p className="textcont">
         TP1 is about creating a table and chairs using Blender: <Link className="gototp" to="/tp1">Click here</Link>
       </p>
-      <img className="imgtp1" src="/public/Chaire.png" alt="Chair for TP1" />
+      <img className="imgtp1" src={`${process.env.PUBLIC_URL}/Chaire.png`} alt="Chaire" />
 
       <p className="textcont">
         TP2 is about ... <Link className="gototp" to="#">Click here</Link>

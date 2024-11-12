@@ -1,0 +1,173 @@
+.containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section-box {
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Header styling within About Me section */
+
+.about-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.about-header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+/* About Me section details */
+
+.about-details h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #2c3e50;
+}
+
+.about-details p {
+    margin: 5px 0;
+    color: #7f8c8d;
+}
+
+
+/* Skills section styling */
+
+
+/* Container styling for Skills component */
+
+.skills-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.skills-container h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+
+/* Flexbox container for skill boxes */
+
+.skills-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+/* Individual skill box styling */
+
+
+/* Container styling for Skills component */
+
+.skills-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.skills-container h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+
+/* Flexbox container for skill boxes */
+
+.skills-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+/* Styling specifically for skill-box */
+
+.skill-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    /* Adjust width as needed */
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-box h3 {
+    font-size: 1.2em;
+    color: tomato;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skill-box p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+
+/* Icon styling for skill-box */
+
+.skill-icon {
+    font-size: 2em;
+    color: tomato;
+    margin-bottom: 10px;
+}
+
+
+/* Container for Contact section */
+
+.contact-container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.contact-container h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+
+/* Social media links styling */
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    font-size: 2em;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: tomato;
+    /* Change color on hover, you can adjust this for each icon */
+}

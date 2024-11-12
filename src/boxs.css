@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Sets a maximum width to center the boxes */
+    justify-content: center;
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.box h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.box p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: tomato;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgb(216, 79, 55);
+}

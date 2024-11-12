@@ -15,6 +15,9 @@ button {
 }
 
 header {
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -75,4 +78,12 @@ header {
 
 .gototp:hover {
     color: rgb(170, 61, 42);
+}
+
+.titletx {
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+    color: tomato;
+    font-size: 40px;
+    font-weight: bold;
 }

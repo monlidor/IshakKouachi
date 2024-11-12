@@ -17,7 +17,7 @@ const Tpbox = () => {
         <img src={`${process.env.PUBLIC_URL}/Waterimg.jpg`} alt="Image 2" />
         <h2>TP2</h2>
         <p>This is the description for box 2.</p>
-        <Link className="button" to="/tp1">Go to TP2</Link>
+        <Link className="button" to="/tp2">Go to TP2</Link>
       </div>
       <div className="box">
         <img src="image3.jpg" alt="Image 3" />

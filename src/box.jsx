@@ -16,14 +16,14 @@ const Tpbox = () => {
       <div className="box">
         <img src={`${process.env.PUBLIC_URL}/Waterimg.jpg`} alt="Image 2" />
         <h2>TP2</h2>
-        <p>This is the description for box 2.</p>
+        <p>water sumilation</p>
         <Link className="button" to="/tp2">Go to TP2</Link>
       </div>
       <div className="box">
-        <img src="image3.jpg" alt="Image 3" />
+        <img src={`${process.env.PUBLIC_URL}/cube.png`} alt="Image 3" />
         <h2>TP3</h2>
-        <p>This is the description for box 3.</p>
-        <Link className="button" to="/tp1">Go to TP3</Link>
+        <p>three js cube</p>
+        <Link className="button" to="/tp3">Go to TP3</Link>
       </div>
       <div className="box">
         <img src="image4.jpg" alt="Image 4" />
